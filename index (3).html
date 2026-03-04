@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pharmacie SAMY - Large gamme de produits pharmaceutiques, dermocosmétiques et compléments alimentaires. Ouvert 7/7 de 08:00 à 00:00.">
+    <meta name="keywords" content="pharmacie, SAMY, Algérie, médicaments, dermocosmétique, compléments alimentaires">
+    <meta name="author" content="Pharmacie SAMY">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="PHARMACIE SAMY - Votre santé, notre priorité">
+    <meta property="og:description" content="Pharmacie SAMY - Large gamme de produits pharmaceutiques, dermocosmétiques et compléments alimentaires.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pharmacie-samy.vercel.app">
+    <meta property="og:image" content="https://placehold.co/1200x630/0d7377/ffffff?text=PHARMACIE+SAMY">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PHARMACIE SAMY">
+    <meta name="twitter:description" content="Votre santé, notre priorité">
+    
+    <title>PHARMACIE SAMY - Votre santé, notre priorité</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💊</text></svg>">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://your-project.supabase.co">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container header-content">
+            <a href="index.html" class="logo" aria-label="PHARMACIE SAMY - Accueil">PHARMACIE SAMY</a>
+            
+            <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav" id="main-nav" role="navigation" aria-label="Navigation principale">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active" data-i18n="nav_home">Accueil</a></li>
+                    <li><a href="catalogue.html" class="nav-link" data-i18n="nav_catalogue">Catalogue</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">À propos</a></li>
+                    <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                    <li><a href="admin.html" class="nav-link" data-i18n="nav_admin">Admin</a></li>
+                </ul>
+                
+                <div class="lang-switcher" role="group" aria-label="Sélection de langue">
+                    <button class="lang-btn active" data-lang="fr" aria-label="Français">FR</button>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                    <button class="lang-btn" data-lang="ar" aria-label="العربية">AR</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-content">
+                <h1 id="hero-title" class="hero-title">PHARMACIE SAMY</h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">Votre santé, notre priorité</p>
+                <p class="hero-hours" data-i18n="hero_hours">7/7 — 08:00 à 00:00</p>
+                <a href="catalogue.html" class="hero-cta" data-i18n="hero_cta">Voir le catalogue</a>
+            </div>
+        </section>
+        
+        <!-- Categories Section -->
+        <section class="section" aria-labelledby="categories-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="categories-title" class="section-title" data-i18n="categories_title">Nos Catégories</h2>
+                    <p class="section-subtitle" data-i18n="categories_subtitle">Découvrez nos produits par catégorie</p>
+                </header>
+                
+                <div id="categories-grid" class="grid grid-4" role="list">
+                    <div class="spinner" style="margin: 2rem auto;"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Featured Products Section -->
+        <section class="section" style="background: var(--bg-secondary);" aria-labelledby="featured-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="featured-title" class="section-title" data-i18n="products_title">Nos Produits</h2>
+                    <p class="section-subtitle" data-i18n="products_subtitle">Une sélection de produits de qualité</p>
+                </header>
+                
+                <div id="featured-products" class="grid grid-4" role="list">
+                    <div class="spinner" style="margin: 2rem auto;"></div>
+                </div>
+                
+                <div class="text-center mt-xl">
+                    <a href="catalogue.html" class="btn btn-primary btn-lg" data-i18n="hero_cta">Voir le catalogue</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PHARMACIE SAMY</h3>
+                    <p data-i18n="hero_subtitle">Votre santé, notre priorité</p>
+                    <p data-i18n="hero_hours">7/7 — 08:00 à 00:00</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="nav_catalogue">Catalogue</h3>
+                    <p><a href="category.html?slug=dermocosmetique">Dermocosmétique</a></p>
+                    <p><a href="category.html?slug=complements-alimentaires">Compléments alimentaires</a></p>
+                    <p><a href="category.html?slug=maman-bebe">Maman & Bébé</a></p>
+                    <p><a href="category.html?slug=hygiene-bucco-dentaire">Hygiène bucco-dentaire</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="footer_follow">Suivez-nous</h3>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/pharmaciesamy/" target="_blank" rel="noopener" aria-label="Instagram">
+                            📷
+                        </a>
+                        <a href="https://www.tiktok.com/@pharmacie.samy" target="_blank" rel="noopener" aria-label="TikTok">
+                            🎵
+                        </a>
+                        <a href="https://wa.me/213770762987" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            💬
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="nav_contact">Contact</h3>
+                    <p><a href="contact.html" data-i18n="contact_directions">Itinéraire</a></p>
+                    <p><a href="tel:+213770762987">+213 770 762 987</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 PHARMACIE SAMY. <span data-i18n="footer_rights">Tous droits réservés</span>.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="assets/config.js"></script>
+    <script src="assets/i18n.js"></script>
+    <script src="assets/supabase.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>
