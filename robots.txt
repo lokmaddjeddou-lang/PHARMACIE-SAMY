@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /assets/
+
+Sitemap: https://pharmacie-samy.vercel.app/sitemap.xml
